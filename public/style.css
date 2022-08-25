@@ -1,0 +1,46 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.footer {
+  color: blue;
+}
+
+.product-img {
+  width: 300px;
+  max-width: 300px;
+  height: 200px;
+  max-height: 200px;
+}
+
+h1 {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+.display-3{
+  text-align: center;
+}
+
+#mi_tabla{
+  overflow:auto;
+  height:500px;
+  width:auto;
+  padding:0px;
+}
+table  { border-collapse: collapse; width: 100%; }
+thead { margin-top:-10px}
+.head-table{
+  text-align: center;
+}
+.tableFixHead th { position: sticky; top: 0; }
+.btn-redireccion{
+  display: block;
+  margin-bottom: 25px;
+  margin-left: 80%;
+}
+.abs-center {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
